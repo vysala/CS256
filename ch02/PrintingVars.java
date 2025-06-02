@@ -16,10 +16,11 @@ public class PrintingVars {
         System.out.println(".");
 
         System.out.print("Number of minutes since midnight: ");
-        System.out.println(hour * 60 + minute);
+        System.out.println(hour * 60 + minute);   // 
 
         System.out.print("Fraction of the hour that has passed: ");
-        System.out.println(minute / 60);
+        System.out.println(minute / 60);   //System.out.println((double) minute / 60); then is won't discard the decimal part.
+
 
         System.out.print("Percent of the hour that has passed: ");
         System.out.println(minute * 100 / 60);
