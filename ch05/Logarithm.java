@@ -11,7 +11,7 @@ public class Logarithm {
         Scanner in = new Scanner(System.in);
         System.out.print("Enter a number: ");
 
-        // check the format
+        // check the format, to see if the user accidently entered a word instead of a double
         if (!in.hasNextDouble()) {
             String word = in.next();
             System.err.println(word + " is not a number");
