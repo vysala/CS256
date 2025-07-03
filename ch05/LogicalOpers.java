@@ -28,7 +28,10 @@ public class LogicalOpers {
             System.out.println("Either x or y is zero");
         }
 
-        // De Morgan's
+        // De Morgan's 
+        // !(A || B) is equivalent to !A && !B , 
+        //  !(A && B) is equivalent to !A || !B
+        
         if (!(x == 0 || y == 0)) {
             System.out.println("Neither x nor y is zero");
         }
