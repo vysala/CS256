@@ -1,3 +1,4 @@
+//Incremental development
 public class Distance {
 
     public static double distance1(double x1, double y1, double x2, double y2) {
