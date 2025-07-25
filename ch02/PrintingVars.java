@@ -19,7 +19,7 @@ public class PrintingVars {
         System.out.println(hour * 60 + minute);   // 
 
         System.out.print("Fraction of the hour that has passed: ");
-        System.out.println(minute / 60);   //System.out.println((double) minute / 60); then is won't discard the decimal part.
+        System.out.println(minute / 60);   //System.out.println((double) minute / 60); then is won't discard the decimal part.  59/60 will should be 0.98333, not 0. 
 
 
         System.out.print("Percent of the hour that has passed: ");
