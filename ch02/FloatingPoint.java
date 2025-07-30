@@ -22,7 +22,7 @@ public class FloatingPoint {
 
         //Demonstrates a safer way to store balance using integers (in cents) instead of floating-point types like double.
         double balance = 123.45;  // potential rounding error
-        int balance2 = 12345;     // total number of cents
+        int balance2 = 12345;     // total number of cents; this will work as lomg as the number of cents doesn't exceed the largest int.
     }
 
 }
