@@ -20,7 +20,7 @@ public class FloatingPoint {
         System.out.println(0.1 + 0.1 + 0.1 + 0.1 + 0.1
                          + 0.1 + 0.1 + 0.1 + 0.1 + 0.1);
 
-        //Demonstrates a safer way to store money using integers (in cents) instead of floating-point types like double.
+        //Demonstrates a safer way to store balance using integers (in cents) instead of floating-point types like double.
         double balance = 123.45;  // potential rounding error
         int balance2 = 12345;     // total number of cents
     }
