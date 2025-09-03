@@ -1,7 +1,6 @@
-package FunctionsTopic;
 
 
-public class TraceCode2_Functions {
+public class TraceCode2Functions {
     public static void main(String[] args) {
         int a = 4;
         int b = 6;
