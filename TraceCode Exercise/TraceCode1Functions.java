@@ -1,6 +1,6 @@
 
 
-public class TraceCode1_Functions {
+public class TraceCode1Functions {
     
     public static void main(String[] args) {
         int x = 5;
