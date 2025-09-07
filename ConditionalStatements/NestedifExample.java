@@ -1,6 +1,8 @@
 package ConditionalStatements;
 
-public class NestedifExample
+package ConditionalStatements;
+/* You are using two independent if conditions, and one of them has an else. */
+public class IndependentifExample
 {
 	public static void main(String[] args) {
 		int num=0;
