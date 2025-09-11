@@ -1,16 +1,16 @@
 package LoopsDemo;
-public class ContinueStatement {
+public class BreakStatement {
 
 	public static void main(String[] args) {
 		
+		
 		for(int i=1;i<=10;i++)
 		{			
-			if(i==3 || i==5 || i==7)  
-			
+			if(i==5)  //1  2 3 4 5
 			{
-				continue;
+				break;
 			}
-			System.out.println(i);  
+			System.out.println(i);  //1 2 3 4
 			
 		}
 
