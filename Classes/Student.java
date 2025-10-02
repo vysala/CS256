@@ -8,7 +8,7 @@ class Student {
         System.out.println(name + " is " + age + " years old."); }
 
 
-     // user-written method to initialize values    
+     // user-written instance method to initialize values    
     void setDetails(String n,int a){
         this.name=n;
         this.age=a;
@@ -42,4 +42,5 @@ class Student {
 
      
     
+
 }
