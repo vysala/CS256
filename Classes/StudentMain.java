@@ -11,9 +11,11 @@ public static void main(String[] args) {
     s.age=60;
     s.display();
 
+    //using default constructor
     Student s1=new Student();
     s1.display();
 
+    //using parameterized constructor
     Student s3=new Student("Bob",50);
     s3.display();
     s3.setAge(40);
@@ -23,3 +25,4 @@ public static void main(String[] args) {
 }
 
 }
+
