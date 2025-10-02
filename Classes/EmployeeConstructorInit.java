@@ -7,7 +7,7 @@
 package ClassesDemo;
 
 class Employee1 {
-// instance varaiables 
+// instance variables 
 String name;
 int id;
 double salary;
@@ -86,4 +86,5 @@ public class EmployeeConstructorInit {
     
  }
 }
+
 
