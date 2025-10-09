@@ -98,15 +98,15 @@ public class Time {
         sum.minute = this.minute + t2.minute;
         sum.second = this.second + t2.second;
 
-        if (sum.second >= 60.0) {
+        if (sum.second >= 60.0) {   // If seconds reach or exceed 60, convert them into minutes.
             sum.second -= 60.0;
             sum.minute += 1;
         }
-        if (sum.minute >= 60) {
+        if (sum.minute >= 60) {  //If minutes reach or exceed 60, convert them into hours.
             sum.minute -= 60;
             sum.hour += 1;
         }
-        if (sum.hour >= 24) {
+        if (sum.hour >= 24) { //If hours reach or exceed 24, wrap around (like a 24-hour clock).
             sum.hour -= 24;
         }
         return sum;
