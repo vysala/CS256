@@ -52,6 +52,7 @@ public class SingleInheritance {
 
         // Case 4: Child reference → Parent object (Downcasting required as child classs cannot hold parent class object)
         // This compiles, but fails at runtime with ClassCastException. throws rumtime exception
+        
        // Car ca = (Car)new Vehicle();   
         
         // Parent object cannot be cast to Child
@@ -62,3 +63,4 @@ public class SingleInheritance {
      
     }
 }
+
