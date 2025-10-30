@@ -49,14 +49,11 @@ public class StudentGradeBook {
         // Compute total, highest, and lowest
         double total = 0, highest = students[0].score, lowest = students[0].score;
 
-        for (Stud s : students) {
-            total += s.score;
-            if (s.score > highest)
-                highest = s.score;
-            if (s.score < lowest)
-                lowest = s.score;
-        }
+         // write your code here  // lab exercise question : Compute total, highest and lowest using enhanced for loop 
 
+           
+
+        // Finding average
         double average = total / n;
 
         // Display results
@@ -72,3 +69,4 @@ public class StudentGradeBook {
         sc.close();
     }
 }
+
