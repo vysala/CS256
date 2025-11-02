@@ -1,1 +1,176 @@
+//Recording Video Example  
+//Example 1 : Classes and Objects
+
+
+class Employee {
+
+    private int empId;
+    private String name;
+
+    // Default constructor
+    public Employee() {
+        this.empId = 0;
+        this.name = "Not Assigned";
+    }
+
+    // Parameterized constructor
+    public Employee(int empId, String name) {
+        this.empId = empId;
+        this.name = name;
+    }
+
+    // Getter for empId
+    public int getEmpId() {
+        return this.empId;
+    }
+
+    // Setter for empId
+    public void setEmpId(int empId) {
+        this.empId = empId;
+    }
+
+    // Getter for name
+    public String getName() {
+        return this.name;
+    }
+
+    // Setter for name
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void display() {
+        System.out.println("Employee ID: " + this.empId);
+        System.out.println("Employee Name: " + this.name);
+        System.out.println("---------------------------");
+    }
+
+    public static void main(String[] args) {
+
+        // Creating object using default constructor
+        Employee e1 = new Employee();
+
+        // Creating object using parameterized constructor
+        Employee e2 = new Employee(101, "John Doe");
+
+        // Using setters to change values
+        e1.setEmpId(999);
+        e1.setName("Updated Name");
+
+        // Displaying details
+        e1.display();
+        e2.display();
+    }
+}
+
+-----------------------------------------------
+//Example 2 
+// Understand the use of this() in program
+class Employee {
+
+    private int empId;
+    private String name;
+
+    // Default constructor
+    public Employee() {
+        this(0, "Not Assigned");    // calling parameterized constructor using this()
+    }
+
+    // Parameterized constructor with both values
+    public Employee(int empId, String name) {
+        this.empId = empId;
+        this.name = name;
+    }
+
+    // Parameterized constructor with only empId
+    public Employee(int empId) {
+        this(empId, "Unknown");    // calling another constructor
+    }
+
+    public void display() {
+        System.out.println("Employee ID: " + this.empId);
+        System.out.println("Employee Name: " + this.name);
+        System.out.println("---------------------------");
+    }
+
+    public static void main(String[] args) {
+
+        // Creating object using default constructor
+        Employee e1 = new Employee();
+
+        // Creating object using parameterized constructor (both values)
+        Employee e2 = new Employee(101, "John Doe");
+
+        // Creating object using constructor that calls another using this()
+        Employee e3 = new Employee(202);
+
+        // Display details
+        e1.display();
+        e2.display();
+        e3.display();
+    }
+}
+-------------------------------------------
+// Encapsulation // Use of getter and Setter methods 
+class Employee {
+
+    private int empId;
+    private String name;
+
+    // Default constructor
+    public Employee() {
+        this.empId = 0;
+        this.name = "Not Assigned";
+    }
+
+    // Parameterized constructor
+    public Employee(int empId, String name) {
+        this.empId = empId;
+        this.name = name;
+    }
+
+    // Getter for empId
+    public int getEmpId() {
+        return this.empId;
+    }
+
+    // Setter for empId
+    public void setEmpId(int empId) {
+        this.empId = empId;
+    }
+
+    // Getter for name
+    public String getName() {
+        return this.name;
+    }
+
+    // Setter for name
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void display() {
+        System.out.println("Employee ID: " + this.empId);
+        System.out.println("Employee Name: " + this.name);
+        System.out.println("---------------------------");
+    }
+
+    public static void main(String[] args) {
+
+        // Creating object using default constructor
+        Employee e1 = new Employee();
+
+        // Creating object using parameterized constructor
+        Employee e2 = new Employee(101, "John Doe");
+
+        // Using setters to change values
+        e1.setEmpId(999);
+        e1.setName("Updated Name");
+
+        // Displaying details
+        e1.display();
+        e2.display();
+    }
+}
+
 
