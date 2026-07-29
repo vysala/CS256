@@ -1,3 +1,5 @@
+// If you simply declare an array of size 4 using new, the elements are automatically initialized with default values. 
+//The default value is 0 for int.[0,0,0,0]
 import java.util.Scanner;
 
 /**
