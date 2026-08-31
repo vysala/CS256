@@ -16,7 +16,7 @@ public class FloatingPoint {
         System.out.print("Fraction of the hour that has passed: ");
         System.out.println(minute3 / 60.0);   // gives 0.983333333333
 
-        //Try running this line to see the difference in output, System.out.println(59 / 60);  because both values are integers, so Java performs integer division.
+        //Try running this line to see the difference in output, System.out.println(59 / 60);  because both values are integers, so Java performs integer division and gives 0 as result.
         //Assigns a fraction to a double to demonstrate floating-point precision.
 
         double y = 1.0 / 3.0;  // 1 ÷ 3 = 0.333333333333...  The decimal goes on forever. A computer, however, has a limited amount of space to store a number, so it stores an approximation.
