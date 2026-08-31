@@ -1,6 +1,7 @@
 /* In Java, byte, short, and long are primitive integer data types that differ primarily in their size (number of bits) and, consequently, the range of values they can store. 
   1 byte =8 bits, short=16 bits(2 bytes), int=32 bits(4 bytes) ,  float =32 bits (4 bytes), double and  long=64 bits(8 bytes). Long can be used to store large integer value.
-
+   As in Java, short is the data type. We simply declare a variable as short, rather than short int.
+ 
 In programming, both float and double are used to represent decimal numbers. A double will use 8 bytes or 64 bits of memory while a float uses only 4 bytes or 32 bits. 
 */
 
