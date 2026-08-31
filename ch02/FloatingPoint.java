@@ -27,7 +27,7 @@ public class FloatingPoint {
                          + 0.1 + 0.1 + 0.1 + 0.1 + 0.1);
         /*  Computers store numbers using bits (0s and 1s). Some decimal numbers, such as 0.1, cannot be represented exactly in binary. So Java stores a very close approximation. 
         When we add that approximation many times, the tiny difference can become visible. */
-        //Demonstrates a safer way to store balance using integers (in cents) instead of floating-point types like double.
+        //Demonstrates a safer way to store balance using integers (in cents) instead of floating-point types like double for financial calculations.
         double balance = 123.45;  // potential rounding error
         int balance2 = 12345;     // total number of cents; this will work as lomg as the number of cents doesn't exceed the largest int.
    
