@@ -1,3 +1,8 @@
+/* This program introduces floating-point numbers in Java. Floating-point data types such as double are used when we 
+    need to store numbers that contain a decimal part, such as 3.14, 123.45, or 0.5.
+
+    */
+
 public class FloatingPoint {
 
     public static void main(String[] args) {
