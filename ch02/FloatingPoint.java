@@ -30,6 +30,9 @@ public class FloatingPoint {
         //Demonstrates a safer way to store balance using integers (in cents) instead of floating-point types like double.
         double balance = 123.45;  // potential rounding error
         int balance2 = 12345;     // total number of cents; this will work as lomg as the number of cents doesn't exceed the largest int.
+   
+     /* double is used to store numbers with decimal values. It is useful for calculations involving fractions and measurements, but remember that floating-point numbers are sometimes approximations, not exact values. This is especially important when working with money
+         or other situations where exact precision matters. */
     }
 
 }
