@@ -15,7 +15,7 @@ public class Convert {
         Scanner in = new Scanner(System.in);
 
         // prompt the user and get the value
-        System.out.print("Exactly how many cm? ");
+        System.out.print("Exactly how many cm? "); // the cm user enters can be a decimal value
         cm = in.nextDouble();
 
         // convert and output the result
