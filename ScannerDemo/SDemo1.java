@@ -10,6 +10,6 @@ String firstName = in.nextLine();
 System.out.println("What is your last name?");
 String lastName = in.nextLine();
 System.out.println("Name: " + lastName + ", " + firstName);
-
+in.close();
 }
 }
