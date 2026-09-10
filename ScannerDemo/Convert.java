@@ -12,7 +12,7 @@ public class Convert {
         int feet, inches, remainder;
         final double CM_PER_INCH = 2.54;
         final int IN_PER_FOOT = 12;
-        Scanner in = new Scanner(System.in);
+        Scanner in = new Scanner(System.in); //creates a Scanner object that allows us to get input from the keyboard.
 
         // prompt the user and get the value
         System.out.print("Exactly how many cm? "); // the cm user enters can be a decimal value
