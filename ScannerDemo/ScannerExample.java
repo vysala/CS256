@@ -12,7 +12,7 @@ public static void main(String[] args){
     System.out.println("Enter your salary");
     double salary=in.nextDouble();
     System.out.println(name + " " +age+" " +salary);
-
+    in.close();
 }
 
 
