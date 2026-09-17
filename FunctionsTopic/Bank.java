@@ -1,7 +1,7 @@
 package FunctionsTopic;
 
-// Different ways of creating methods.
-
+// Different ways of creating methods. 
+// Conditional statements(if statement) makes sense once we complete conditional statements topic
 /*
 
 1. Method has No Parameters and No Return Value
