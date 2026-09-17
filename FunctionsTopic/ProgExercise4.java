@@ -16,7 +16,7 @@ radius of the circle, and returns the circle’s radius.
 
 c.circumference: This method takes as its parameter a number that represents
 the radius of the circle and returns the circle’s circumference. (If r is the
-radius, the circumference is 2pr.) "p is the pi value"
+radius, the circumference is 2pr.) "p is the pi value". The value of π tells us that the circumference of a circle is about 3.14 times its diameter.
 
 d.area: This method takes as its parameter a number that represents the radius of the
 circle and returns the circle’s area. (If r is the radius, the area is pr2.)
