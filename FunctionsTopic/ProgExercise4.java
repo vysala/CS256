@@ -73,7 +73,7 @@ public static double distance(double firstX, double firstY,
 public static double radius(double firstX, double firstY,
                             double secondX, double secondY)
 {
-    return distance(firstX,firstY,secondX,secondY);
+    return distance(firstX,firstY,secondX,secondY);  //Since that distance is the radius, radius() simply returns the answer it gets from distance().
 }
 
 public static double circumference(double cRadius)
