@@ -1,3 +1,6 @@
+/* Use switch when you are choosing among several specific values of the same expression.
+Use separate if statements when you are evaluating independent conditions or ranges. */
+
 package ConditionalStatements;
 public class SwitchCaseDemo {
 
