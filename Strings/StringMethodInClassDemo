@@ -45,7 +45,11 @@ for(String word: b){
 }
 
 String str="HelloWorldWide";
-String[] arr=str.split("W");
+String[] arr=str.split("W"); // In this case in the output, W will not be included as it acts as a seperator
+System.out.println(Arrays.toString(arr));
+
+String arr1 = str.split("(?=W)"); // try this code as well to see the difference, here we ask to Split at a position 
+//where the next character is W, but don't actually consume the W. So W will stay in the output. 
 System.out.println(Arrays.toString(arr));
 
 } 
